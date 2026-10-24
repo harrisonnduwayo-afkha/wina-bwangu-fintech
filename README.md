@@ -2,7 +2,7 @@
 
 Mobile money management web app for a six-booth Lusaka network (Airtel Money, MTN Money, Zamtel Money, Zanaco, FNB). University project: client-side prototype (Logbook 2) and server-side prototype with tests (Logbook 3).
 
-**Live demo:** https://YOUR-USERNAME.github.io/YOUR-REPO/  (login `admin` / `wina123`)
+**Live demo:** https://harrisonnduwayo-afkha.github.io/YOUR-REPO/  (login `admin` / `wina123`)
 The live demo runs in browser-only mode (data kept in your browser). Run the Node server below to use the SQLite database.
 
 Node.js server (REST API) + SQLite database + the responsive Wina Bwangu web app.
