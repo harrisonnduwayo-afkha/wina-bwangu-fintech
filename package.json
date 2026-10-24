@@ -1,0 +1,17 @@
+{
+  "name": "wina-bwangu-server",
+  "version": "1.0.0",
+  "description": "Server-side prototype for the Wina Bwangu mobile money web app (Node.js + SQLite, no external dependencies)",
+  "main": "server/server.js",
+  "engines": {
+    "node": ">=22.5"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "node --test --test-reporter=spec tests/unit/*.test.js tests/regression/*.test.js",
+    "test:unit": "node --test --test-reporter=spec tests/unit/*.test.js",
+    "test:regression": "node --test --test-reporter=spec tests/regression/*.test.js",
+    "test:ui": "node tests/ui/responsive.js"
+  },
+  "license": "UNLICENSED"
+}
